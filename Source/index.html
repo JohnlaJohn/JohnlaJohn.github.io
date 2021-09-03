@@ -62,40 +62,21 @@
     <h7><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur magnam neque cum cumque, deserunt facilis aliquam tenetur velit, magni atque, ipsum recusandae vero sit et repudiandae at consequatur non ad!</span></h7>
 
     <h2>Расчет стоимости</h2>
-    <table border="1">
-        <tr>
-            <th>тип сайта</th>
-        </tr>
-        <tr>
-            <td><select name="list1" id="list">
-                    <option value="opti">выберите пункт</option>
-                </select>
 
-            </td>
-        <tr>
-            <th>дизайн</th>
-        </tr>
-        <tr>
-            <td><select name="list1" id="list">
-                    <option value="opti">выберите пункт</option>
-                </select>
-
-            </td>
-
-        <tr>
-            <th>адаптивность</th>
-        </tr>
-        <tr>
-            <td><select name="list1" id="list">
-                    <option value="opti">выберите пункт</option>
-                </select>
-
-            </td>
-  </table>
-  <p>сроки 0</p>
-  <p>стоимость 0</p>
-   
-    
+    <div class="calculation">тип сайта</div>
+    <select name="list1" id="list">
+        <option value="opti">выберите пункт</option>
+    </select>
+    <div class="calculation">дизайн</div>
+    <select name="list1" id="list">
+        <option value="opti">выберите пункт</option>
+    </select>
+    <div class="calculation">адаптивность</div>
+    <select name="list1" id="list">
+        <option value="opti">выберите пункт</option>
+    </select>
+    <p>сроки 0</p>
+    <p>стоимость 0</p>
 
     <h2>немного статистики</h2>
     <ul>
@@ -124,9 +105,11 @@
             <li>+79999999</li>
         </ul>
         <h4>оставте мне сообщение</h4>
-        <input type="text" placeholder="введите ваше имя">
-        <input type="text" placeholder="email">
-        <input type="text" placeholder="сообщение">
+        <input type="textarea" placeholder="введите ваше имя">
+        <input type="textarea" placeholder="email">
+        <br>
+        
+        <textarea placeholder="сообщение" id="" cols="30" rows="10"></textarea>
 
         <input type="submit" value="отправить">
         <br>
